@@ -1,0 +1,83 @@
+body{
+
+    height: 20.1cm;
+    background-color: rgb(238, 238, 238);
+}
+.profile_section{
+    position: absolute;
+    width: 10cm;
+    height: 9cm;
+
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 3%;
+    margin-left: 37.6%;
+    border-radius: 20px;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
+}
+.profile_section .profile_title{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    letter-spacing: 15px;
+    color: rgba(0, 0, 0, 0.805);
+}
+.profile_section img{
+    margin-top: 80px;
+    border-radius: 30px;
+
+    width: 250px;
+    height: 320px;
+    object-fit: contain;
+    
+}
+.profile_section .name{
+    position: absolute;
+    margin-top: 12cm;
+
+    font-family: "ubuntu";
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.profile_section .contacts{
+    position: absolute;
+    display: flex;
+    gap: 85px;
+    margin-top: 11.2cm;
+}
+
+.profile_section .contacts img{
+    width: 30px;
+    height: 60px;
+}
+.profile_section .mail_logo{
+    position: absolute;
+  
+    width: 40px;
+    height: 50px;
+
+    margin-top: 15.2cm;
+    margin-left: -145px;
+}
+
+.profile_section .resume{
+    position: absolute;
+    font-family: "ubuntu";
+    background-color: cadetblue;
+
+    margin-top: 17cm;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    letter-spacing: 5px;
+
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.60);
+}
+.profile_section .resume:hover{
+    transform:scale(1.07);
+}
