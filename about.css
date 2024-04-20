@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     
-    margin-top: 7%;
+    margin-top: 6.1%;
     margin-left: 12%;
     border-radius: 20px;
 
@@ -93,7 +93,7 @@ a{
     display: flex;
     justify-content: center;
     margin-left: 21.5cm;
-    margin-top: 2.5cm;
+    margin-top: 2.1cm;
     font-family: "ubuntu";
 }
 .motivation{
