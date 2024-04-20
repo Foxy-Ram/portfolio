@@ -1,7 +1,7 @@
 body{
 
-    height: 20.1cm;
-    background-color: rgb(238, 238, 238);
+    height: 22.5cm;
+    background-color: rgb(242, 242, 242);
 }
 .profile_section{
     position: absolute;
@@ -12,8 +12,8 @@ body{
     display: flex;
     justify-content: center;
     
-    margin-top: 3%;
-    margin-left: 37.6%;
+    margin-top: 7%;
+    margin-left: 12%;
     border-radius: 20px;
 
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
@@ -80,4 +80,42 @@ body{
 }
 .profile_section .resume:hover{
     transform:scale(1.07);
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.information{
+    position: absolute;
+    width: 14cm;
+    height: 16cm;
+    display: flex;
+    justify-content: center;
+    margin-left: 21.5cm;
+    margin-top: 2.5cm;
+    font-family: "ubuntu";
+}
+.motivation{
+    position: absolute;
+    left: 0px;
+}
+.inspiration{
+    position: absolute;
+    right: 0px;
+}
+.carrer_motto{
+    position: absolute;
+    margin-top: 4cm;
+    left: 0px;
+}
+.soft_skills{
+    position: absolute;
+    margin-top: 9cm;
+    left: 0px;
+}
+.interests{
+    position: absolute;
+    margin-top: 9cm;
+    right: 0px;
 }
