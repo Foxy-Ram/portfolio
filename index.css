@@ -1,0 +1,567 @@
+body{
+    background-color: rgb(238, 238, 238);
+    height: 112cm;
+}
+section.profile{
+    width: 100%;
+    height: 30cm;
+    font-family: "Josefin Sans";
+    color: rgb(0, 0, 0);
+}
+section.profile div.name{
+    margin-left: 15%;
+    margin-top: 250px;
+}
+section.profile div.name h1{
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+section.profile div.name h2{
+    font-size: 45px;
+    letter-spacing: 6px;
+}
+div.circle{
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(173, 216, 230, 0.553);
+    z-index: -1;
+
+    margin-top: 40px;
+    margin-left: -40px;
+}
+
+/* no animation for now */
+section.profile div.line_animation{
+    width: 800px;
+    height: 3px;
+    background-image: linear-gradient(to right, red , yellow);
+
+    margin-top: 270px;
+
+}
+div.bubble1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: darkseagreen;
+    border-radius: 50%;
+
+    right: 4%;
+    margin-top: -750px;
+}
+div.bubble1:hover{
+
+    animation: bubble1hover 1.5s forwards;
+}
+@keyframes bubble1hover{
+    to{
+        background-color: lightsalmon;
+    }
+}
+div.bubble2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: lightsalmon;
+    border-radius: 50%;
+
+    right: 11%;
+    margin-top: -200px;
+}
+div.bubble2:hover{
+
+    animation: bubble2hover 1.5s forwards;
+}
+@keyframes bubble2hover{
+    to{
+        background-color: lightseagreen;
+    }
+}
+
+/* person image */
+section.profile img{
+    
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+
+    border: 5px rgb(237, 203, 8) solid;
+
+    top: 80px;
+    right: 12%;
+}
+
+div.about{
+    margin-top: 5%;
+    margin-left: 17%;
+    text-align: center;
+
+    width: 1000px;
+}
+div.about h1{
+    font-size: 45px;
+}
+div.about p{
+    font-size: 25px;
+    font-family: "Cedarville Cursive", cursive;
+    margin-top: -25px;
+}
+
+section.profile h2.quote{
+
+    margin-top: 50px;
+    margin-left: 6%;
+    color:rgba(0, 0, 0, 0.219);
+    font-size: 100px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-family: "Afacad";
+}
+
+/*SKILLS BLOCK*/
+
+div.skills{
+    margin-top: 3%;
+    width: 100%;
+    height: 30cm;
+
+    left: 0;
+    text-align: center;
+}
+div.skills h1{
+    font-size: 50px;
+    font-family: "Cedarville Cursive", cursive;
+    color: lightseagreen;
+}
+div.skills h1 div.bubble3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgba(173, 216, 230, 0.75);
+
+    margin-left: 49%;
+    margin-top: -80px;
+    z-index: -1;
+
+}
+
+/* PROGRAMMING LANGUAGES */
+/* Setting logos on h1 tag */
+div.programming-languages{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+div.programming-languages h2{
+    font-size: 100px;
+    font-family: "Courier Prime", monospace;
+    color: rgba(255, 166, 0, 0.1);
+    margin-top: 10px;
+}
+div.pl-logos{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    margin-top:35px;
+}
+div.pl-logos img{
+    width: 50px;
+    height: 50px;
+}
+
+/*Adjusting individual logos*/
+div.pl-logos img.sql{
+    width: 100px;
+    height: 50px;
+}
+div.pl-logos img.java{
+    width: 55px;
+    height: 65px;
+    margin-top: -10px;
+}
+div.pl-logos img.c{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* WEB TECH */
+div.web-tech{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+div.web-tech h2{
+    font-size: 100px;
+    font-family: "Courier Prime", monospace;
+    color: rgba(0, 119, 255, 0.1);
+    margin-top: 10px;
+}
+div.wt-logos{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    margin-top:45px;
+}
+div.wt-logos img{
+    width: 40px;
+    height: 45px;
+}
+/*DS ML DL NLP*/
+div.dmdn{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+div.dmdn h2{
+    font-size: 100px;
+    font-family: "Courier Prime", monospace;
+    color: rgba(0, 255, 8, 0.1);
+    margin-top: 10px;
+}
+div.dmdn-logos{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    margin-top:40px;
+}
+div.dmdn-logos img{
+    width: 40px;
+    height: 45px;
+}
+
+/*Adjusting individual logos*/
+div.dmdn-logos img.sklearn{
+    width: 65px;
+    height: 45px;
+}
+div.dmdn img.spacy{
+    width:70px;
+    height: 70px;
+    margin-top: -10px;
+}
+div.dmdn img.gensim{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+/*Data Visualization*/
+div.dv{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+div.dv h2{
+    font-size: 100px;
+    font-family: "Courier Prime", monospace;
+    color: rgba(225, 0, 255, 0.1);
+    margin-top: 10px;
+}
+div.dv-logos{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    margin-top:40px;
+}
+div.dv-logos img{
+    width: 40px;
+    height: 45px;
+}
+/*Adjusting logo sizes*/
+div.dv-logos img.plotly{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;    
+}
+
+/*OTHER TOOLS*/
+div.ot{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+div.ot h2{
+    font-size: 100px;
+    font-family: "Courier Prime", monospace;
+    color: rgba(27, 26, 28, 0.1);
+    margin-top: 10px;
+}
+div.ot-logos{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    margin-top:40px;
+}
+div.ot-logos img{
+    width: 40px;
+    height: 45px;
+}
+/*Adjusting the logos*/
+div.ot-logos img.excel{
+    width: 40px;
+    height: 40px;
+}
+div.ot-logos img.github{
+    width: 38px;
+    height: 38px;
+}
+div.ot-logos img.streamlit{
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+}
+div.ot-logos img.flask{
+    width: 70px;
+}
+div.logos img.fastapi{
+    width: 38px;
+    height: 38px;
+}
+div.logos img.jupyter{
+    width: 40px;
+    height: 50px;
+}
+
+/* PROJECTS */
+
+div.projects{
+    margin-top: 7%;         
+    width: 100%;
+
+    text-align: center;
+    left: 0;
+}
+div.projects h1{
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 50px;
+    color: lightcoral;
+}
+div.projects h1 div.bubble_for_projects{
+    
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color:rgba(143, 188, 143, 0.75);
+    border-radius: 50%;
+
+    right: 0;
+    margin-right: 53%;
+    margin-top: -90px;
+    z-index: -1;
+}
+
+/* Every Projects row aids to mention 3 project details*/
+/* Projects row1 */
+div.projects-row1{
+    width: 100%;
+    height: 440px;
+
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    font-family: "Afacad";
+    margin-top: 100px;
+}
+/*------------------------------------------------------------------*/
+div.projects-col1{
+    width: 450px;
+    height: 400px;
+    text-align: center;
+}
+div.projects-col1 img{
+    width: 100%;
+    border-radius: 12px;
+    border: 4px lightseagreen solid;
+}
+/*------------------------------------------------------------------*/
+div.projects-col2{
+    width: 450px;
+    height: 400px;
+    text-align: center;
+}
+div.projects-col2 img{
+    width: 100%;
+    border-radius: 12px;
+    border: 4px lightsalmon solid;
+}
+/*------------------------------------------------------------------*/
+div.projects-col3{
+    width: 450px;
+    height: 400px;
+    text-align: center;
+}
+div.projects-col3 img{
+    width: 100%;
+    border-radius: 12px;
+    border: 4px lightskyblue solid;
+}
+
+/*------------------------------------------------------------------*/
+
+/*The below css is suitable for the all text and links for the projects that are mentioned*/
+h2.project-title{
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+h3 a{
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-family: "Cedarville Cursive", cursive;
+}
+a.source{
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 0px 10px;
+    color: black;
+}
+a.presen{
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 0px 8px;
+    color: black;
+    margin-left: 5px;
+}
+a.source:hover, a.presen:hover{
+    background-color: lightgray;
+    color: rgb(255, 255, 255);
+}
+/*------------------------------------------------------------------*/
+
+/* Projects row2 */
+div.projects-row2{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    font-family: "Afacad";
+}
+
+/* Projects row3 */
+div.projects-row3{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    font-family: "Afacad";
+}
+
+
+
+
+/*CONTACT DETAILS*/
+div.contact{
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+}
+div.contact h1{
+    font-family: "Courier Prime", monospace;
+    font-size: 100px;
+    color: rgba(46, 139, 86, 0.11);
+    margin-top: 0px;
+
+}
+div.contact div.contact-fields{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    font-family: "Afacad";
+}
+div.contact div.contact-fields a{
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 22px;
+
+    margin-top: 62px;
+}
+div.contact div.contact-fields a:hover{
+    transform: scale(1.055);
+    font-weight: 300;
+}
+div.contact div.contact-fields a:active{
+    color: crimson;
+}
+
+/* Resume button */
+div.resumeButton{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+div.resumeButton button.res-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 30px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10rem;
+    transition: all 0.02s;
+    font-weight: bold;
+    color: black;
+    z-index: 0;
+    box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+}
+  
+.res-button:hover {
+    background: rgb(193, 228, 248);
+    color: rgb(33, 0, 85);
+}
+  
+.res-button:active {
+    transform: scale(0.97);
+}
+  
+.hoverEffect {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+  
+.hoverEffect div {
+    background: rgb(222,0,75);
+    background: linear-gradient(90deg, rgba(222,0,75,1) 0%, rgba(191,70,255,1) 49%, rgba(0,212,255,1) 100%);
+    border-radius: 40rem;
+    width: 10rem;
+    height: 10rem;
+    transition: 0.4s;
+    filter: blur(20px);
+    animation: effect infinite 3s linear;
+    opacity: 0.5;
+}
+  
+.res-button:hover .hoverEffect div {
+    width: 8rem;
+    height: 8rem;
+}
+  
+@keyframes effect {
+  
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
