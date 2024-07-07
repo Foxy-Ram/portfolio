@@ -32,6 +32,7 @@ section.profile{
     height: 30cm;
     font-family: "Josefin Sans";
     color: rgb(0, 0, 0);
+
 }
 section.profile div.name{
     margin-left: 15%;
@@ -118,14 +119,23 @@ section.profile img{
 
     top: 80px;
     right: 12%;
+    
+}
+
+div.eclosed_about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 div.about{
-    margin-top: 5%;
-    margin-left: 17%;
+    margin-top: 2.6%;
+    margin-left: 0%;
     text-align: center;
 
     width: 1000px;
+   
 }
 div.about h1{
     font-size: 45px;
@@ -135,11 +145,15 @@ div.about p{
     font-family: "Cedarville Cursive", cursive;
     margin-top: -25px;
 }
-
+section.profile div.enclosed_quote{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 section.profile h2.quote{
 
-    margin-top: 50px;
-    margin-left: 6%;
+    margin-top: 24px;
+    margin-left: 0%;
     color:rgba(0, 0, 0, 0.219);
     font-size: 100px;
     font-weight: bolder;
@@ -354,7 +368,7 @@ div.logos img.jupyter{
 /* PROJECTS */
 
 div.projects{
-    margin-top: 5%;         
+    margin-top: 5.5%;         
     width: 100%;
 
     text-align: center;
@@ -522,7 +536,7 @@ div.resumeButton{
     height: 40px;
     display: flex;
     justify-content: center;
-    margin-top: 38px;
+    margin-top: 40px;
 }
 div.resumeButton button.res-button {
     display: inline-flex;
@@ -589,3 +603,34 @@ div.resumeButton button.res-button {
     }
 }
 
+/* MY STUFF and RECOMMENDATIONS */
+div.my_stuff{
+    width: 100%;
+
+    /* Top-Right-Bottom-Left */
+    padding: 10px 0px 70px 0px;
+    text-align: center;
+}
+
+div.my_stuff h1.title_msr{
+    font-family: "Afacad";
+    color: rgba(46, 139, 86, 0.11);
+    font-size: 80px;
+}
+div.my_stuff a.content_a{
+    text-decoration: none;
+}
+div.my_stuff div.my_stuff_content{
+    display: flex;
+    justify-content: center;
+    margin-top: -146px;
+}
+div.my_stuff div.my_stuff_content h2.content_click{
+    font-family: "Josefin Sans";
+    color: rgb(110, 171, 192);
+    font-size: 35px;
+    letter-spacing: 20px;
+}
+h2.content_click:hover{
+    transform: scale(0.95);
+}
