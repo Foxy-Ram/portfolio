@@ -632,5 +632,5 @@ div.my_stuff div.my_stuff_content h2.content_click{
     letter-spacing: 20px;
 }
 h2.content_click:hover{
-    transform: scale(0.95);
+    transform: scale(0.97);
 }
