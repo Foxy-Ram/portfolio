@@ -407,9 +407,10 @@ div.projects-row1{
 }
 /*------------------------------------------------------------------*/
 div.projects-col1{
-    width: 450px;
-    height: 400px;
+    width: 430px;
+    height: 380px;
     text-align: center;
+    padding-left: 20px;
 }
 div.projects-col1 img{
     width: 100%;
@@ -418,8 +419,8 @@ div.projects-col1 img{
 }
 /*------------------------------------------------------------------*/
 div.projects-col2{
-    width: 450px;
-    height: 400px;
+    width: 430px;
+    height: 380px;
     text-align: center;
 }
 div.projects-col2 img{
@@ -429,9 +430,10 @@ div.projects-col2 img{
 }
 /*------------------------------------------------------------------*/
 div.projects-col3{
-    width: 450px;
-    height: 400px;
+    width: 430px;
+    height: 380px;
     text-align: center;
+    padding-right: 20px;
 }
 div.projects-col3 img{
     width: 100%;
@@ -498,7 +500,7 @@ div.contact{
 
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 div.contact h1{
     font-family: "Courier Prime", monospace;
@@ -608,7 +610,7 @@ div.my_stuff{
     width: 100%;
 
     /* Top-Right-Bottom-Left */
-    padding: 10px 0px 70px 0px;
+    padding: 10px 0px 75px 0px;
     text-align: center;
 }
 
