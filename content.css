@@ -12,7 +12,7 @@ body{
 .da h1, .ds h1, .ml h1, .dl h1, .nlp h1, .web h1, .llm h1{
     color: aliceblue;
     margin-top: 80px;
-    font-size: 100px;
+    font-size: 95px;
     letter-spacing: 5px;
 }
 .da h1:hover, .ds h1:hover, .ml h1:hover, .dl h1:hover, .nlp h1:hover, .web h1:hover, .llm h1:hover{
