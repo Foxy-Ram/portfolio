@@ -47,10 +47,23 @@ body{
     background-color: lightslategray;
 }
 
-/*Slide Toogle using Jquery */
+/* Slide Toogle using Jquery */
 .inner_da, .inner_ds, .inner_ml, .inner_dl, .inner_nlp, .inner_web, .inner_llm{
     width: 100%;
     height: 400px;
     background-color:whitesmoke;
     display: none;
+}
+
+/* Content Integration */
+.soon_info{
+    margin: 0px;
+    padding-top: 180px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Courier Prime", monospace;
+}
+
+.soon_info_highlight{
+    color: crimson;
 }
