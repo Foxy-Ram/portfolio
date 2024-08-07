@@ -216,6 +216,23 @@
     <script>
         AOS.init();
     </script>
+
+    <!-- Adjusting the page to 90% if the system is 13 inch -->
+    <script>
+        function adjustZoom() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            if (width >= 1250 && width <= 1440) {
+                document.body.style.zoom = "0.9";
+            } else {
+                document.body.style.zoom = "1";
+            }
+        }
+
+        // Call adjustZoom when the window is loaded and resized
+        window.onload = adjustZoom;
+        window.onresize = adjustZoom;
+    </script>
 </body>
 </html>
 
