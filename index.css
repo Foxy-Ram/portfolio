@@ -4,6 +4,7 @@
 body{
     background-color: rgb(238, 238, 238);
     height: 109.5cm;
+    zoom: 1; /* Adjusting the page to 90% if the system is 13 inch */
 }
 /*Custom Cursor*/
 .cursor-dot{
