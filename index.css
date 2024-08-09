@@ -158,8 +158,19 @@ section.profile h2.quote{
     font-family: "Afacad";
 }
 
-/*SKILLS BLOCK*/
+/* Adjusting the quote for disparate media's */
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+    section.profile h2.quote{
+        font-size: 95px;
+    }
+  }
+@media only screen and (min-width: 1200px) and (max-width : 1330px) {
+    section.profile h2.quote{
+        font-size: 90px;
+    }
+  }
 
+/*SKILLS BLOCK*/
 div.skills{
     margin-top: -10px;
     width: 100%;
